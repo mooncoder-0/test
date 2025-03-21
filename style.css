@@ -1,0 +1,31 @@
+body{
+   font-size: 15pt;
+   background-color:#4B4A4F;
+   color:#EAEAEA;
+   font-family: Courier, arial,
+}
+header{
+  text-shadow: -4px -3px 3px hsla(258, 65%, 55%, 1), 4px 3px 3px hsla(234, 78%, 56%, 1);
+  color:#979CD4
+  border:3px;
+  margin: -8px -8px 0px -8px;
+}
+
+#home{
+  color: black;
+  border:3px solid ;
+  text-shadow:none;
+}
+#webtitle{
+  color: black;
+  background-color:rgba(18, 17, 24, 0.82);
+  border:solid;
+  margin:0px;
+  
+}
+#testp{
+  background-color:#C4FBFF66;
+  border:3px solid rgba(201, 214, 219, 1);
+  border-radius:6px;
+  box-shadow: -4px -4px 5px #B4BCE1, 3px 3px 4px ;
+}
