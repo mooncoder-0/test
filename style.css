@@ -1,0 +1,106 @@
+body{
+  border:3px solid whitesmoke;
+  font-size: 15pt;
+  padding:2px;
+  background-color:#1E1F2D;
+  color:#8935DFC2;
+  text-shadow: 1px 0px 2px black ;
+  font-family: Courier, arial,;
+  margin: auto;
+  background-image:url(pics/Earth.jpg);
+  background-repeat:no-repeat;
+  background-position:center;
+  background-attachment:fixed;
+  background-size:cover;
+}
+header{
+  text-shadow: -4px -3px 3px hsla(258, 65%, 55%, 1), 4px 3px 3px hsla(234, 78%, 56%, 1);
+  color:#979CD4;
+  margin: -8px -8px 0px -8px;
+  border: 3px solid ;
+  background-color:rgba(18, 17, 24, 0.82);
+}
+
+#home{
+  color: white ;
+  border:3px solid lightcyan ;
+  text-shadow:none;
+  margin-top:10px;
+}
+#webtitle{
+  color: black;
+  border:solid;
+  margin:0px;
+  
+}
+#testp{
+  background-color:#C4FBFF66;
+  border:3px solid rgba(201, 214, 219, 1);
+  border-radius:6px;
+  box-shadow: -4px -4px 5px #B4BCE1, 3px 3px 4px ;
+}
+#fort1{
+  width:375px;
+
+  margin:center;
+}
+#jj p{
+  background-color:#E69AFF ;
+  color:pink;
+  padding:10px;
+  display:none;
+}
+#jj:hover p{
+  display: block;
+}
+#greet::first-letter{
+  font-size:2em;
+  font-style:italic;
+}
+#greet{
+  font-family:cursive;
+  text-align:center;
+}
+.pick{
+  border:4px solid;
+  font-size:1em;
+  height:auto;
+  width:50%;
+  box-sizing:border-box;
+  text-align:center;
+  align-self:center;
+  float:right ;
+  position:relative;
+  ;
+}
+#bluep{
+  background-color: mediumblue ;
+
+}
+#redp{
+  background-color: darkred;
+}
+button:hover{
+  font-size:1.1em;
+  background-color:black;
+}
+button:active{
+  font-size:1.2em;
+  background-color:red;
+}
+ul{
+  border:2px solid;
+  background-color:#7CFDFF38;
+}
+li:not(:hover){
+background-color:#E775FFC2; 
+}
+li:hover{
+  background-color:#670E5FC2;
+}
+a:link{
+  color:#6DD1E3C2;
+}
+a:visited{
+  color:#35CFEBC2;
+}
